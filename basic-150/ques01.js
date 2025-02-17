@@ -1,36 +1,26 @@
-// 1. Write a JavaScript program to display the current day and time in the following format.  
+// QUESTION 01 : 
+// Write a JavaScript program to display the current day and time in the following format.  
 // Sample Output : Today is : Tuesday.
 // Current time is : 10 PM : 30 : 38
 
+// assigning Date object. 
+let today = new Date() ; 
 
-// attempt 
-// console.log("Today is : Tuesday \nCurrent time is : 10PM : 30 : 38") ;
+// print Day. 
+let day = today.getDay() ; 
 
+let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'] ; 
+console.log(`Today is ${days[day - 1]}.`) ; 
 
-// solution
+// print Time.
+let hour = today.getHours() ; 
+let minute = today.getMinutes() ; 
+let second = today.getSeconds() ; 
 
-var today = new Date() ; // gets current DNT in object. 
+// set prepand based on hour. 
+let mer = (hour >=12) ? "PM" : "AM"  ; 
 
-var day = today.getDay() ; 
+// set clock to 12 hour format
+hour = (hour > 12) ? hour - 12 : hour ;  
 
-var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'] ; 
-
-// displayin current day
-console.log("Today is : " + days[day-1]) ;
-
-var hour = today.getHours() ; 
-var minute = today.getMinutes() ; 
-var second = today.getSeconds() ; 
-
-// checkin if it's AM or PM 
-var prepand = (hour >= 12) ? "PM" : "AM" ; 
-
-hour = (hour >= 12 ) ? hour-12 : hour; // 24 to 12 H format.
-
-// I AM NOT CHECKING FOR SPECIAL CASES HERE! 
-
-// displayin current time
-console.log("Current time : " + hour + prepand + ":" + minute + ":" + second) ; 
-
-
- 
+console.log(`Current time is ${hour} ${mer} : ${minute} : ${second}`) ;
