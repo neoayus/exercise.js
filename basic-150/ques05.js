@@ -11,7 +11,7 @@ function animate_string(id){
     // set up intervals to rotate the characters in the text every 100 miliseconds 
     setInterval(function(){
         // move the last character to the begining of the string
-        text = text[text.length - 1] + text.substring(0, text.length - 1) ; 
+        text = text[text.length - 1] + text.substring(0, text.length - 1) ; // this takes the last character of the string and then concatenates a string from first character to the second last to the end of the last character, that makes it look like that the string is moving...
         
         // update the text content of the text node with the modified string
         textNode.data = text; 
