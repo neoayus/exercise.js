@@ -1,4 +1,3 @@
-var letter = 'S' ; 
-var num ; 
-num = 
-console.log(num) ;
+var str = "slime shit" ; 
+var array01 = ['slime', 'shit', 'slimeshit'] ;
+console.log(array01[1].length) ;
