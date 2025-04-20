@@ -1,0 +1,27 @@
+Top Priority (Core React Essentials) (DAILY) 
+
+-   JavaScript Functions (7/29)
+-   JavaScript Fundamental (ES6) Part-I (x/150)
+-   JavaScript Promises and Async/Await (x/20) 
+-   JavaScript Modules and Imports/Exports (x/20)
+-   JavaScript Object (x/18)
+-   JavaScript HTML DOM (x/13)
+-   JavaScript Event Handling (x/21)
+
+
+
+High Priority (2, 3x time a week)    
+
+-   JavaScript Fundamental (ES6) Part-II   – 590 Exercises  
+-   JavaScript Conditional Statements and Loops   – 60 Exercises  
+-   JavaScript Array   – 265 Exercises  
+-   JavaScript Object-Oriented Programming   – 60 Exercises  
+
+
+
+Medium Priority (Once a Week)    
+
+-   JavaScript Recursion   – 65 Exercises  
+-   JavaScript Error Handling   – 65 Exercises  
+-   JavaScript Sorting Algorithm   – 155 Exercises  
+-   JavaScript Validation with Regular Expression   – 105 Exercises  
